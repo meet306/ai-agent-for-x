@@ -108,5 +108,8 @@ async function chatLoop(toolCall = null) {
   }
 }
 
+console.log("hello")
+console.log(tools)
+
 // -------------------- Start --------------------
 chatLoop();
